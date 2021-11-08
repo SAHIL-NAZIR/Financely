@@ -1,0 +1,28 @@
+@mixin screen-mobile-l {
+    @media screen and (max-width: 425px) {
+        header{
+            nav{
+                #nav-menu{
+                    a{
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+@mixin screen-laptop {
+    @media screen and (max-width: 1024px) {
+        header{
+            nav{
+                #nav-menu{
+                    a{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }    
+}

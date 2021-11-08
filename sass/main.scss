@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'components';
+@import 'responsive';
+body{
+    height: 150vh;
+    background: #252B42 !important;
+}
+header{
+    @include font-bold;
+    nav{
+        a{
+            color: $light-text-color !important;
+            &:hover{
+                color: $primary-color !important;
+                transition: all 0.5s;
+            }
+        }
+        .active{
+            color: $primary-color !important;
+        }
+        >a{
+            font-size: 24px !important;
+            margin-right: 75px !important;
+        }
+        #nav-menu{
+            font-size: 14px !important;
+            a{
+                // float: right;
+                text-align: right;
+            }
+        }
+    }
+    .login-div{
+        font-size: 14px !important;
+        a{
+            margin-right: 45px;
+            text-decoration: none;
+            color: $light-text-color;
+        }
+        
+        #signup{
+            @include btn-rect-primary;
+            padding: 15px 25px;
+            
+            &:hover{
+                opacity: 0.8;
+                transition:all 1s;
+            }
+        }
+    }
+}
+
+//////////// media queries \\\\\\\\\\\\\\\\\\\\\\
+@include screen-mobile-l;
+@include screen-laptop;

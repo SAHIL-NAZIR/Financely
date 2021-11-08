@@ -1,0 +1,73 @@
+body {
+  height: 150vh;
+  background: #252B42 !important;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+header nav a {
+  color: #FFFFFF !important;
+}
+
+header nav a:hover {
+  color: #23A6F0 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header nav .active {
+  color: #23A6F0 !important;
+}
+
+header nav > a {
+  font-size: 24px !important;
+  margin-right: 75px !important;
+}
+
+header nav #nav-menu {
+  font-size: 14px !important;
+}
+
+header nav #nav-menu a {
+  text-align: right;
+}
+
+header .login-div {
+  font-size: 14px !important;
+}
+
+header .login-div a {
+  margin-right: 45px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header .login-div #signup {
+  background-color: #23A6F0;
+  color: #FFFFFF;
+  padding: 15px 25px;
+}
+
+header .login-div #signup:hover {
+  opacity: 0.8;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@media screen and (max-width: 425px) {
+  header nav #nav-menu a {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header nav #nav-menu a {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

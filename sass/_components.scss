@@ -1,0 +1,40 @@
+@mixin font-medium {
+    font-family: $font;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+@mixin font-semi-bold {
+    font-family: $font;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+@mixin font-bold {
+    font-family: $font;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+@mixin font-extra-bold {
+    font-family: $font;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+@mixin btn-rect-primary{
+    background-color: $primary-color;
+    color: $light-text-color;
+}
+@mixin btn-rect-light{
+    background-color: $light-text-color;
+    color: $primary-color;
+}
+@mixin btn-round-primary{
+    background-color: $primary-color;
+    color: $light-text-color;
+    border-radius: 37px;
+}
+@mixin btn-round-light{
+    background-color: transparent;
+    color: $light-text-color;
+    border-radius: 37px;
+}
+
