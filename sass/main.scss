@@ -1,10 +1,17 @@
 @import 'variables';
 @import 'components';
 @import 'responsive';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // outline: 1px solid;
+}
 body{
-    height: 150vh;
+    // height: 150vh;
     background: #252B42 !important;
 }
+
 header{
     @include font-bold;
     nav{
@@ -49,6 +56,55 @@ header{
         }
     }
 }
+.row{
+    width: 100% !important;
+}
+.btn-outline-primary{
+    color: $light-text-color !important;
+    border-color: $light-text-color !important;
+    border-radius: 37px !important;
+    &:hover{
+        background-color: $primary-color !important;
+        border-color: $primary-color !important;
+    }
+}
+.btn-primary{
+    border-radius: 37px !important;
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    &:hover{
+        background-color: transparent !important;
+        border-color: $light-text-color !important;
+    }
+}
+.main{
+    padding-left: 3rem;
+    padding-top: 5rem;
+    &__heading{
+        @include font-extra-bold;
+        font-size: 58px;
+        line-height: 80px;
+        width: 35rem;
+    }
+    &__paragraph{
+        @include font-medium;
+        font-size: 20px;
+        line-height: 30px;
+        width: 25rem;
+    }
+    .buttons-div{
+        @include font-bold;
+        font-size: 14px;
+        button{
+            margin: 5px !important;
+            padding: 15px 36px !important;
+        }
+    }
+}
+
+
+
+
 
 //////////// media queries \\\\\\\\\\\\\\\\\\\\\\
 @include screen-mobile-l;

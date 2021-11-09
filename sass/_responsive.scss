@@ -24,5 +24,25 @@
                 }
             }
         }
+
+        .main{
+            text-align: center;
+            &__heading{
+                font-size: 40px;
+                line-height: 57px;
+                width: auto;
+                margin-bottom: 40px;
+            }
+            &__paragraph{
+                width: auto;
+                margin-bottom: 28px;
+            }
+            .buttons-div{
+                button{
+                    margin: 12px !important;
+                    padding: 10px 36px !important;
+                }
+            }
+        }
     }    
 }

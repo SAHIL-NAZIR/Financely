@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  height: 150vh;
   background: #252B42 !important;
 }
 
@@ -58,6 +64,67 @@ header .login-div #signup:hover {
   transition: all 1s;
 }
 
+.row {
+  width: 100% !important;
+}
+
+.btn-outline-primary {
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  border-radius: 37px !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #23A6F0 !important;
+  border-color: #23A6F0 !important;
+}
+
+.btn-primary {
+  border-radius: 37px !important;
+  background-color: #23A6F0 !important;
+  border-color: #23A6F0 !important;
+}
+
+.btn-primary:hover {
+  background-color: transparent !important;
+  border-color: #FFFFFF !important;
+}
+
+.main {
+  padding-left: 3rem;
+  padding-top: 5rem;
+}
+
+.main__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  font-size: 58px;
+  line-height: 80px;
+  width: 35rem;
+}
+
+.main__paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 25rem;
+}
+
+.main .buttons-div {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+}
+
+.main .buttons-div button {
+  margin: 5px !important;
+  padding: 15px 36px !important;
+}
+
 @media screen and (max-width: 425px) {
   header nav #nav-menu a {
     text-align: center;
@@ -68,6 +135,23 @@ header .login-div #signup:hover {
 @media screen and (max-width: 1024px) {
   header nav #nav-menu a {
     font-size: 24px;
+  }
+  .main {
+    text-align: center;
+  }
+  .main__heading {
+    font-size: 40px;
+    line-height: 57px;
+    width: auto;
+    margin-bottom: 40px;
+  }
+  .main__paragraph {
+    width: auto;
+    margin-bottom: 28px;
+  }
+  .main .buttons-div button {
+    margin: 12px !important;
+    padding: 10px 36px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
