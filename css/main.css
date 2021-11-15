@@ -92,7 +92,8 @@ header .login-div #signup:hover {
 
 .main {
   padding-left: 3rem;
-  padding-top: 5rem;
+  padding-top: 4rem;
+  color: #FFFFFF;
 }
 
 .main__heading {
@@ -123,6 +124,44 @@ header .login-div #signup:hover {
 .main .buttons-div button {
   margin: 5px !important;
   padding: 15px 36px !important;
+}
+
+.strategy {
+  color: #FFFFFF;
+}
+
+.strategy h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.strategy p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.strategy .cards {
+  outline: 1px solid #00000030;
+  border-radius: 2px;
+  background: #FFFFFF;
+  width: 330px;
+  height: 140px;
+}
+
+.strategy .cards h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252B42;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {

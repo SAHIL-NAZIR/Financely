@@ -79,7 +79,8 @@ header{
 }
 .main{
     padding-left: 3rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
+    color: $light-text-color;
     &__heading{
         @include font-extra-bold;
         font-size: 58px;
@@ -101,7 +102,33 @@ header{
         }
     }
 }
-
+.strategy{
+    color: $light-text-color;
+    h2{
+        @include font-bold;
+        font-size: 40px;
+        line-height: 57px;
+    }
+    p{
+        @include font-medium;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .cards{
+        outline: 1px solid #00000030;
+        border-radius: 2px;
+        background: $light-text-color;
+        width: 330px;
+        height: 140px;
+        h3{
+            @include font-semi-bold;
+            font-size: 14px;
+            line-height: 24px;
+            color: $text-color;
+            opacity: 0.8;
+        }
+    }
+}
 
 
 
