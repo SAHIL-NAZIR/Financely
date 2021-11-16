@@ -118,7 +118,7 @@ header{
         outline: 1px solid #00000030;
         border-radius: 2px;
         background: $light-text-color;
-        width: 330px;
+        // width: 330px;
         height: 140px;
         h3{
             @include font-semi-bold;
