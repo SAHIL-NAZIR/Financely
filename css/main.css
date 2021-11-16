@@ -163,6 +163,79 @@ header .login-div #signup:hover {
   opacity: 0.8;
 }
 
+.testimonial {
+  margin-top: 160px !important;
+}
+
+.testimonial h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.testimonial p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.testimonial img {
+  width: 96px;
+}
+
+.testimonial .checked {
+  color: yellow;
+}
+
+.testimonial .card {
+  border-radius: 5px;
+  color: #252B42;
+  padding: 40px 46px;
+  margin-top: 70px;
+}
+
+.testimonial .card-body {
+  padding: 0 !important;
+}
+
+.testimonial .card .img-div {
+  margin-bottom: 30px;
+}
+
+.testimonial .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.8;
+}
+
+.testimonial .card .ratings-div {
+  margin: 15px 0;
+}
+
+.testimonial .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.testimonial .card-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 425px) {
   header nav #nav-menu a {
     text-align: center;
@@ -190,6 +263,12 @@ header .login-div #signup:hover {
   .main .buttons-div button {
     margin: 12px !important;
     padding: 10px 36px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .testimonial .card {
+    padding: 40px 180px;
   }
 }
 /*# sourceMappingURL=main.css.map */

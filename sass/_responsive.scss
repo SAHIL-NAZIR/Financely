@@ -44,5 +44,12 @@
                 }
             }
         }
-    }    
+    }
+    @media screen and (min-width: 1200px) {
+        .testimonial{
+            .card{
+                padding: 40px 180px;
+            }
+        }
+    }   
 }

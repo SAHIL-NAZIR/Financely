@@ -129,7 +129,58 @@ header{
         }
     }
 }
-
+.testimonial{
+    margin-top: 160px !important;
+    h2{
+        @include font-bold;
+        font-size: 40px;
+        line-height: 57px;
+    }
+    p{
+        @include font-medium;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    img{
+        width: 96px;
+        // height: auto;
+    }
+    .checked{
+        color: yellow;
+    }
+    .card{
+        border-radius: 5px;
+        color: $text-color;
+        padding: 40px 46px;
+        margin-top: 70px;
+        &-body{
+            padding: 0 !important;
+        }
+        .img-div{
+            margin-bottom: 30px;
+        }
+        &-text{
+            @include font-medium;
+            font-size: 14px;
+            line-height: 20px;
+            opacity: 0.8;
+        }
+        .ratings-div{
+            margin: 15px 0;
+        }
+        &-title{
+            @include font-bold;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &-subtitle{
+            @include font-semi-bold;
+            font-size: 14px;
+            line-height: 24px;
+            opacity: 0.8;
+        }
+    }
+}
 
 
 
