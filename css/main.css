@@ -159,8 +159,7 @@ header .login-div #signup:hover {
   letter-spacing: 0.2px;
   font-size: 14px;
   line-height: 24px;
-  color: #252B42;
-  opacity: 0.8;
+  color: #737373;
 }
 
 .testimonial {
@@ -212,7 +211,7 @@ header .login-div #signup:hover {
   letter-spacing: 0.2px;
   font-size: 14px;
   line-height: 20px;
-  opacity: 0.8;
+  color: #737373;
 }
 
 .testimonial .card .ratings-div {
@@ -233,7 +232,7 @@ header .login-div #signup:hover {
   letter-spacing: 0.2px;
   font-size: 14px;
   line-height: 24px;
-  opacity: 0.8;
+  color: #737373;
 }
 
 .faq {
@@ -275,12 +274,124 @@ header .login-div #signup:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: 0.2px;
-  color: #252B42;
-  opacity: 0.8;
+  color: #737373;
 }
 
 .faq .card-body {
   padding: 25px 47px !important;
+}
+
+.pricing {
+  margin-top: 160px !important;
+}
+
+.pricing h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+  color: #FFFFFF;
+}
+
+.pricing p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.pricing .free, .pricing .premium, .pricing .standard {
+  padding: 50px 40px;
+  border-radius: 10px;
+}
+
+.pricing .free .card-header, .pricing .premium .card-header, .pricing .standard .card-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.pricing .free .card-header h3, .pricing .premium .card-header h3, .pricing .standard .card-header h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+
+.pricing .free .card-header p, .pricing .premium .card-header p, .pricing .standard .card-header p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+  margin: 35px 0;
+  width: 200px;
+}
+
+.pricing .free .price p, .pricing .premium .price p, .pricing .standard .price p {
+  color: #23A6F0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.pricing .free .price span, .pricing .premium .price span, .pricing .standard .price span {
+  width: 78px;
+  color: #23A6F0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+}
+
+.pricing .free .list-group, .pricing .premium .list-group, .pricing .standard .list-group {
+  margin: 35px 0;
+}
+
+.pricing .free .list-group-item, .pricing .premium .list-group-item, .pricing .standard .list-group-item {
+  background: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252B42;
+}
+
+.pricing .free .list-group-item img, .pricing .premium .list-group-item img, .pricing .standard .list-group-item img {
+  margin-right: 10px;
+}
+
+.pricing .free .btn-primary, .pricing .premium .btn-primary, .pricing .standard .btn-primary {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  background-color: #23A6F0;
+  border-radius: 5px !important;
+  padding: 15px 0 !important;
+}
+
+.pricing .standard {
+  background-color: #23A6F0;
+}
+
+.pricing .standard .card-header h3, .pricing .standard .card-header p, .pricing .standard .price p, .pricing .standard .price span, .pricing .standard .list-group-item {
+  color: #FFFFFF;
+}
+
+.pricing .standard .btn-primary {
+  background-color: #FFFFFF !important;
+  color: #23A6F0 !important;
 }
 
 @media screen and (max-width: 425px) {
@@ -316,6 +427,16 @@ header .login-div #signup:hover {
 @media screen and (min-width: 1200px) {
   .testimonial .card {
     padding: 40px 180px;
+  }
+  .pricing .standard {
+    margin: -40px 1px 0px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pricing .standard {
+    margin: -20px 1px 0 !important;
+    z-index: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -124,8 +124,7 @@ header{
             @include font-semi-bold;
             font-size: 14px;
             line-height: 24px;
-            color: $text-color;
-            opacity: 0.8;
+            color: $second-text-color;
         }
     }
 }
@@ -163,7 +162,7 @@ header{
             @include font-medium;
             font-size: 14px;
             line-height: 20px;
-            opacity: 0.8;
+            color: $second-text-color;
         }
         .ratings-div{
             margin: 15px 0;
@@ -177,7 +176,7 @@ header{
             @include font-semi-bold;
             font-size: 14px;
             line-height: 24px;
-            opacity: 0.8;
+            color: $second-text-color;
         }
     }
 }
@@ -207,16 +206,97 @@ header{
         }
         P{
             @include font-semi-bold;
-            color: $text-color;
-            opacity: 0.8;
+            color: $second-text-color;
         }
         &-body{
             padding: 25px 47px !important;
         }
     }
 }
-
-
+.pricing{
+    margin-top: 160px !important;
+    h2{
+        @include font-bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: $light-text-color;
+    }
+    p{
+        @include font-medium;
+        font-size: 14px;
+        line-height: 20px;
+        color: $light-text-color;
+        margin-bottom: 80px;
+    }
+    .free, .premium, .standard{
+        padding: 50px 40px;
+        border-radius: 10px;
+        .card-header{
+            background-color: transparent;
+            border-bottom: none;
+            h3{
+                @include font-bold;
+                font-size: 24px;
+                line-height: 32px;
+                color: $text-color;
+            }
+            p{
+                @include font-bold;
+                font-size: 16px;
+                line-height: 24px;
+                color: $second-text-color;
+                margin: 35px 0;
+                width: 200px;
+            }
+        }
+        .price{
+            // width: 116px;
+            p{
+                color: $primary-color;
+                @include font-bold;
+                font-size: 40px;
+                line-height: 57px;
+            }
+            span{
+                width: 78px;
+                color: $primary-color;
+                @include font-bold;
+                font-size: 14px;
+            }
+        }
+        .list-group{
+            margin: 35px 0;
+            &-item{
+                background: transparent;
+                border: none;
+                @include font-semi-bold;
+                font-size: 14px;
+                line-height: 24px;
+                color: $text-color;
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+        .btn-primary{
+            @include font-bold;
+            font-size: 14px;
+            background-color: $primary-color;
+            border-radius: 5px !important;
+            padding: 15px 0 !important;
+        }
+    }
+    .standard{
+        background-color: $primary-color;
+        .card-header h3, .card-header p, .price p, .price span, .list-group-item{
+                color: $light-text-color;
+        }
+        .btn-primary{
+            background-color: $light-text-color !important;
+            color: $primary-color !important;
+        }
+    }
+}
 //////////// media queries \\\\\\\\\\\\\\\\\\\\\\
 @include screen-mobile-l;
 @include screen-laptop;

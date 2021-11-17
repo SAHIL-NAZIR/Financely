@@ -51,5 +51,18 @@
                 padding: 40px 180px;
             }
         }
-    }   
+        .pricing{
+            .standard{
+                margin: -40px 1px 0px !important;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .pricing{
+            .standard{
+                margin: -20px 1px 0 !important;
+                z-index: 1;
+            }
+        }
+    }
 }
