@@ -236,6 +236,53 @@ header .login-div #signup:hover {
   opacity: 0.8;
 }
 
+.faq {
+  margin-top: 160px !important;
+}
+
+.faq h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+  color: #FFFFFF;
+}
+
+.faq p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.faq .card-group {
+  margin: 30px 15px;
+}
+
+.faq .card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252B42;
+}
+
+.faq .card P {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  opacity: 0.8;
+}
+
+.faq .card-body {
+  padding: 25px 47px !important;
+}
+
 @media screen and (max-width: 425px) {
   header nav #nav-menu a {
     text-align: center;
