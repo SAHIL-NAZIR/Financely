@@ -431,6 +431,59 @@ header .login-div #signup:hover {
   border-radius: 0 5px 5px 0 !important;
 }
 
+.footer {
+  margin-top: 160px !important;
+  color: #FFFFFF;
+}
+
+.footer > div {
+  margin-bottom: 30px;
+}
+
+.footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .icons-div {
+  color: #23A6F0;
+}
+
+.footer .icons-div span {
+  margin-right: 20px;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #23A6F0;
+}
+
 @media screen and (max-width: 425px) {
   header nav #nav-menu a {
     text-align: center;
@@ -474,6 +527,12 @@ header .login-div #signup:hover {
   .pricing .standard {
     margin: -20px 1px 0 !important;
     z-index: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer > div {
+    margin-right: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
