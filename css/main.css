@@ -30,7 +30,7 @@ header nav .active {
 }
 
 header nav > a {
-  font-size: 24px !important;
+  font-size: 30px !important;
   margin-right: 75px !important;
 }
 
@@ -127,6 +127,7 @@ header .login-div #signup:hover {
 }
 
 .strategy {
+  margin-top: 160px !important;
   color: #FFFFFF;
 }
 
@@ -431,6 +432,11 @@ header .login-div #signup:hover {
   border-radius: 0 5px 5px 0 !important;
 }
 
+.contact .d-flex .btn-primary:hover {
+  background-color: #FFFFFF !important;
+  color: #23A6F0 !important;
+}
+
 .footer {
   margin-top: 160px !important;
   color: #FFFFFF;
@@ -458,12 +464,9 @@ header .login-div #signup:hover {
   margin-bottom: 20px;
 }
 
-.footer .icons-div {
-  color: #23A6F0;
-}
-
-.footer .icons-div span {
+.footer .icons-div a {
   margin-right: 20px;
+  color: #23A6F0;
 }
 
 .footer ul li {

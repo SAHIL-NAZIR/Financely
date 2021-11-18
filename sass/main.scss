@@ -26,7 +26,7 @@ header{
             color: $primary-color !important;
         }
         >a{
-            font-size: 24px !important;
+            font-size: 30px !important;
             margin-right: 75px !important;
         }
         #nav-menu{
@@ -103,6 +103,7 @@ header{
     }
 }
 .strategy{
+    margin-top: 160px !important;
     color: $light-text-color;
     h2{
         @include font-bold;
@@ -320,6 +321,10 @@ header{
         .btn-primary{
             padding: 15px 20px !important;
             border-radius: 0 5px 5px 0 !important;
+            &:hover{
+                background-color: $light-text-color !important;
+                color: $primary-color !important;
+            }
         }
     }
 }
@@ -342,9 +347,9 @@ header{
         margin-bottom: 20px;
     }
     .icons-div{
-        color: $primary-color;
-        span{
+        a{
             margin-right: 20px;
+            color: $primary-color;
         }
     }
     ul li{
