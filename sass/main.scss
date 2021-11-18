@@ -297,6 +297,32 @@ header{
         }
     }
 }
+.contact{
+    margin-top: 160px !important;
+    h2{
+        @include font-bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: $light-text-color;
+    }
+    p{
+        @include font-medium;
+        font-size: 14px;
+        line-height: 20px;
+        color: $light-text-color;
+    }
+    .d-flex{
+        @include font-medium;
+        font-size: 14px;
+        padding: 1px;
+        background-color: $light-text-color;
+        border-radius: 5px;
+        .btn-primary{
+            padding: 15px 20px !important;
+            border-radius: 0 5px 5px 0 !important;
+        }
+    }
+}
 //////////// media queries \\\\\\\\\\\\\\\\\\\\\\
 @include screen-mobile-l;
 @include screen-laptop;
