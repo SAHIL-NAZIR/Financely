@@ -1,5 +1,5 @@
 <h1 align="center">FINANCELY -   A Financial Management Tool</h1><br>
-<p align="center">Financial Plus Limited is a cryptocurrency & forex trading firm, concentrated in producing favourable financing solutions. The strenuous exercise in this domain has admitted the company to form an adequate team of experts to get a great solid experience in this field.</p><br>
+<p align="center">Financely is a cryptocurrency & forex trading firm, concentrated in producing favourable financing solutions. The strenuous exercise in this domain has admitted the company to form an adequate team of experts to get a great solid experience in this field.</p><br>
 
 ---
 
