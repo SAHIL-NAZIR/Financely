@@ -21,7 +21,7 @@
 ## Links
 
 - Solution URL: [github](https://github.com/SAHIL-NAZIR/Financely)
-- Live Site URL: [gitpage](Financely.github.io)
+- Live Site URL: [gitpage](https://lonesahilnazir.github.io/Financely/)
 
 ---
 
